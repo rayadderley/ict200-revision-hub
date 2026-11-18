@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102a3b">
+  <meta name="description" content="ICT200 chapter revision, flashcards and interactive ERD, SQL and normalization practice.">
+  <title>ICT200 Revision Hub</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="erd-studio.css">
+  <script src="content.js" defer></script>
+  <script src="erd-studio.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <p class="eyebrow">ICT200 · Database systems</p>
+      <h1>Revision hub</h1>
+      <p class="lead">A small step at a time: review the idea, test yourself, then revisit anything you missed.</p>
+      <div class="masthead-meta"><span>Chapters 1–6</span><span>ERD · SQL · normalization</span><span>Works offline after first load</span></div>
+    </div>
+  </header>
+  <div class="shell">
+    <nav class="sidebar" aria-label="Revision sections">
+      <a class="brand" href="#home" data-route="home">ICT200 <span>Study path</span></a>
+      <p class="nav-caption">Start here</p>
+      <a href="#home" data-route="home">Overview</a>
+      <p class="nav-caption">Lecture chapters</p>
+      <div id="chapter-nav"></div>
+      <p class="nav-caption">Practice studios</p>
+      <div id="module-nav"></div>
+      <p class="nav-foot">Progress stays in this browser. No account or server is needed.</p>
+    </nav>
+    <main id="main" tabindex="-1">
+      <div id="app" aria-live="polite"></div>
+    </main>
+  </div>
+  <footer class="footer">ICT200 student revision · Original practice material based on the current lecture scope. Past papers and suggested schemes are not published here.</footer>
+</body>
+</html>
